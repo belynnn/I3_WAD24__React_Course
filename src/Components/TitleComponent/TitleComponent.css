@@ -1,0 +1,8 @@
+.container-title{
+    background-color: #1e1150;
+    width: fit-content;
+    margin: 1rem 0;
+    padding: 1px 50px 2px 50px;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+/* 📌 Conteneur */
+.exo-list-container {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments en colonne (verticalement) */
+    justify-content: flex-start; /* Aligne à gauche */
+    align-items: flex-start; /* Aligne en haut */
+    width: 100%; /* Prend toute la largeur de l'écran */
+    padding: 0; /* Enlève toute marge/padding par défaut */
+}
+
+/* 📜 Liste des liens */
+.exo-list {
+    display: block; /* Affiche les éléments de manière bloc */
+    list-style-type: none; /* Affiche des puces avant chaque élément */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Ajoute un padding à gauche pour l'indentation des puces */
+}
+
+/* 🔗 Élément de la liste */
+.exo-list-items {
+    margin-bottom: 10px; /* Ajoute un espacement entre les éléments de la liste */
+}
+
+/* 🖇️ Lien */
+.exo-list-item-link {
+    text-decoration: none; /* Enlève la décoration du lien */
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+    color: #1e1150;
+}
+
+/* 🖱️ Effet quand visité */
+.exo-list-item-link:visited {
+    color: #1e1150;
+}
+
+/* 🖱️ Effet au survol */
+.exo-list-item-link:hover {
+    color: #3700ff;
+}
+
+/* 📱 Responsive : Mobile */
+@media (max-width: 768px) {
+    .exo-list-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exo-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
