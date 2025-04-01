@@ -8,6 +8,7 @@ function ExercicesPage() {
     { path: "/exercises/exercice-2", label: "Exercice 2 : Créer une liste de produits" },
     { path: "/exercises/exercice-3", label: "Exercice 3 : Créer un compteur" },
     { path: "/exercises/exercice-4", label: "Exercice 4 : Créer une calculatrice" },
+    { path: "/exercises/exercice-5", label: "Exercice 5 : Créer une Todo list" },
   ]
 
   return (

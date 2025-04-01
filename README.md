@@ -4,10 +4,11 @@
 2. ✅ Créer un compteur
 3. ✅ Créer un composant Navbar + Routing
 4. ✅ Créer une liste de produit
-5. 🔄️ Créer un formulaire simulant une calculatrice
+5. ✅ Créer un formulaire simulant une calculatrice
+6. 🔄️ Créer une Todo list
 
 ## To do
-- 🔄️ Importer les exercices déjà réalisé dans ce projet-ci
+- ✅ Importer les exercices déjà réalisé dans ce projet-ci
 - 🔄️ Importer les démos dans ce projet-ci
 
 ## Notes
