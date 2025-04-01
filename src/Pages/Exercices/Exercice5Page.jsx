@@ -4,7 +4,7 @@ import TodoForm from "../../Components/Exo05-TodoApp/TodoFormComponent/TodoFormC
 import TodoList from "../../Components/Exo05-TodoApp/TodoListComponent/TodoListComponent.jsx"
 import "../../Components/Exo04-CréerUneCalculatrice/NumberCruncherComponent/NumberCruncherComponent.module.css"
 import '../../Pages/Exercices/Exercices.css'
-import TodoSection from "../../Components/Exo05-TodoApp/TodoSectionComponent.jsx";
+// import TodoSection from "../../Components/Exo05-TodoApp/TodoSectionComponent.jsx";
 
 function Exercice5Page() {
   const [tasks, setTasks] = useState([])
